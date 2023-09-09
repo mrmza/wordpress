@@ -4,8 +4,6 @@ services:
   env: docker
   plan: standard
   autoDeploy: false
-  volumes:
-  - ./wordpress.ini:/usr/local/etc/php/conf.d/wordpress.ini
   disk:
     name: wordpress
     mountPath: /var/www/html
