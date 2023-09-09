@@ -1,6 +1,6 @@
 # You can change this to a different version of Wordpress available at
 # https://hub.docker.com/_/wordpress
-FROM wordpress:5.3.2-apache
+FROM wordpress:6.3.1-apache
 
 COPY ./wordpress.ini /usr/local/etc/php/conf.d/wordpress.ini
 
