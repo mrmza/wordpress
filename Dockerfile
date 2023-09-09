@@ -2,7 +2,7 @@
 # https://hub.docker.com/_/wordpress
 FROM wordpress:5.3.2-apache
 
-COPY ./wordpress/ini /usr/local/etc/php/conf.d/wordpress.ini
+COPY ./wordpress.ini /usr/local/etc/php/conf.d/wordpress.ini
 
 RUN apt-get update && apt-get install -y magic-wormhole
 
